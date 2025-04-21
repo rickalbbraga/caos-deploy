@@ -34,7 +34,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: web
+  name: web-svc-cip
   namespace: caos
 spec:
   selector:
@@ -47,7 +47,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: web
+  name: web-svc-np
   namespace: caos
 spec:
   selector:
